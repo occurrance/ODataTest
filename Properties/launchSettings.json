@@ -1,0 +1,27 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "https://localhost:44305/swagger/ui/",
+      "sslPort": 44305
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchUrl": "index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "OdataTest": {
+      "commandName": "Project",
+      "launchUrl": "http://localhost:44305/swagger/ui/",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://0.0.0.0:44305",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
